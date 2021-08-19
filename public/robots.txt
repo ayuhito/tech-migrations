@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://next-lotus-starter.vercel.app/
+
+# Sitemaps
+Sitemap: https://next-lotus-starter.vercel.app/sitemap.xml
