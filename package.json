@@ -11,7 +11,8 @@
     "start": "next start",
     "format:lint": "eslint --fix **/*.{js,jsx,ts,tsx}",
     "format:prettier": "prettier --write **/*.{js,jsx,ts,tsx,css,md,json}",
-    "format": "yarn format:lint && yarn format:prettier"
+    "format": "yarn format:lint && yarn format:prettier",
+    "sort": "ts-node --project tsconfig_scripts.json ./scripts/sort-articles.ts && prettier --write **/*.json"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.15",
@@ -21,12 +22,14 @@
     "@emotion/styled": "^11.3.0",
     "@fontsource/poppins": "^4.5.0",
     "framer-motion": "^4.1.17",
+    "jsonfile": "^6.1.0",
     "next": "^11.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0"
   },
   "devDependencies": {
+    "@types/jsonfile": "^6.0.1",
     "@types/node": "^16.6.2",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
@@ -38,6 +41,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "next-sitemap": "^1.6.162",
     "prettier": "^2.3.2",
+    "ts-node": "^10.2.1",
     "typescript": "^4.3.5"
   },
   "license": "MIT",

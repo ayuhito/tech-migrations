@@ -1,0 +1,154 @@
+[
+  {
+    "company": "Khan Academy",
+    "from": ["Python"],
+    "to": ["Go"],
+    "category": ["languages"],
+    "url": "https://blog.khanacademy.org/half-a-million-lines-of-go/",
+    "created": "2021-05-13"
+  },
+  {
+    "company": "Gitpod",
+    "from": ["React", "Gatsby"],
+    "to": ["Svelte", "SvelteKit"],
+    "category": ["frameworks"],
+    "url": "https://www.gitpod.io/blog/from-gatsby-to-svelte",
+    "created": "2021-05-08"
+  },
+  {
+    "company": "Replit",
+    "from": ["Webpack"],
+    "to": ["Vite"],
+    "category": ["other"],
+    "url": "https://blog.replit.com/vite",
+    "created": "2021-04-28"
+  },
+  {
+    "company": "Percona",
+    "from": ["Promotheus"],
+    "to": ["VictoriaMetricsDB"],
+    "category": ["other"],
+    "url": "https://www.percona.com/blog/2020/12/23/observations-on-better-resource-usage-with-percona-monitoring-and-management-v2-12-0/",
+    "created": "2020-12-23"
+  },
+  {
+    "company": "Discord",
+    "from": ["Cassandra"],
+    "to": ["ScyllaDB"],
+    "category": ["databases"],
+    "url": "https://www.scylladb.com/press-release/discord-chooses-scylla-core-storage-layer/",
+    "created": "2020-07-22"
+  },
+  {
+    "company": "PayPal",
+    "from": ["C++"],
+    "to": ["Go"],
+    "category": ["languages"],
+    "url": "https://go.dev/solutions/paypal",
+    "created": "2020-05-01"
+  },
+  {
+    "company": "Dropbox",
+    "from": ["Python"],
+    "to": ["Rust"],
+    "category": ["languages"],
+    "url": "https://dropbox.tech/infrastructure/rewriting-the-heart-of-our-sync-engine",
+    "created": "2020-03-09"
+  },
+  {
+    "company": "Khan Academy",
+    "from": ["Python"],
+    "to": ["Go"],
+    "category": ["languages"],
+    "url": "https://blog.khanacademy.org/go-services-one-goliath-project/",
+    "created": "2019-12-20"
+  },
+  {
+    "company": "Deliveroo",
+    "from": ["Ruby"],
+    "to": ["Rust"],
+    "category": ["languages"],
+    "url": "https://deliveroo.engineering/2019/02/14/moving-from-ruby-to-rust.html",
+    "created": "2019-02-14"
+  },
+  {
+    "company": "The Guardian",
+    "from": ["MongoDB"],
+    "to": ["PostgreSQL"],
+    "category": ["databases"],
+    "url": "https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres",
+    "created": "2018-11-30"
+  },
+  {
+    "company": "Cloudflare",
+    "from": ["CitusDB"],
+    "to": ["ClickHouse"],
+    "category": ["databases"],
+    "url": "https://blog.cloudflare.com/http-analytics-for-6m-requests-per-second-using-clickhouse/",
+    "created": "2018-03-07"
+  },
+  {
+    "company": "Uber",
+    "from": ["Python"],
+    "to": ["Go"],
+    "category": ["languages"],
+    "url": "https://eng.uber.com/schemaless-rewrite/",
+    "created": "2018-02-22"
+  },
+  {
+    "company": "Discord",
+    "from": ["MongoDB"],
+    "to": ["Cassandra"],
+    "category": ["databases"],
+    "url": "https://blog.discord.com/how-discord-stores-billions-of-messages-7fa6ec7ee4c7#.bv31n293t",
+    "created": "2017-01-14"
+  },
+  {
+    "company": "Uber",
+    "from": ["PostgreSQL"],
+    "to": ["MySQL"],
+    "category": ["databases"],
+    "url": "https://eng.uber.com/postgres-to-mysql-migration/",
+    "created": "2016-07-26"
+  },
+  {
+    "company": "Pinterest",
+    "from": ["Java"],
+    "to": ["Elixir"],
+    "category": ["languages"],
+    "url": "https://venturebeat.com/2015/12/18/pinterest-elixir/",
+    "created": "2015-12-18"
+  },
+  {
+    "company": "Dockyard",
+    "from": ["Ruby"],
+    "to": ["Elixir"],
+    "category": ["languages"],
+    "url": "https://dockyard.com/blog/2015/11/18/phoenix-is-not-rails",
+    "created": "2015-11-18"
+  },
+  {
+    "company": "Cloudflare",
+    "from": ["PostgreSQL"],
+    "to": ["CitusDB"],
+    "category": ["databases"],
+    "url": "https://blog.cloudflare.com/scaling-out-postgresql-for-cloudflare-analytics-using-citusdb/",
+    "created": "2015-04-09"
+  },
+  {
+    "company": "Repustate",
+    "from": ["Python"],
+    "to": ["Go"],
+    "category": ["languages"],
+    "url": "https://www.repustate.com/blog/from-python-to-go-migrating-our-entire-api/",
+    "created": "2013-02-09"
+  },
+  {
+    "company": "Reddit",
+    "from": ["CommonLISP"],
+    "to": ["Python"],
+    "category": ["languages"],
+    "url": "https://redditblog.com/2005/12/05/on-lisp/",
+    "created": "2005-12-05"
+  }
+]
