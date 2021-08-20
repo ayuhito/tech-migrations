@@ -2,7 +2,7 @@ import { Flex, FlexProps } from "@chakra-ui/react";
 import { PropsWithChildren } from "react";
 
 import { Footer } from "./Footer";
-import { Navbar } from "./Navbar/Navbar";
+import { Navbar } from "./Navbar";
 
 export type PageContainerProps = PropsWithChildren<FlexProps>;
 
