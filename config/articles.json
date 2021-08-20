@@ -1,5 +1,13 @@
 [
   {
+    "company": "Brex",
+    "from": ["Elixir"],
+    "to": ["Kotlin"],
+    "category": ["languages"],
+    "url": "https://medium.com/brexeng/building-backend-services-with-kotlin-7c8410795e4b",
+    "created": "2021-05-23"
+  },
+  {
     "company": "Khan Academy",
     "from": ["Python"],
     "to": ["Go"],
@@ -22,6 +30,14 @@
     "category": ["other"],
     "url": "https://blog.replit.com/vite",
     "created": "2021-04-28"
+  },
+  {
+    "company": "Expedia",
+    "from": ["Cassandra"],
+    "to": ["ScyllaDB"],
+    "category": ["databases"],
+    "url": "https://scylladb.medium.com/expedia-group-our-migration-journey-to-scylla-12cdfa820442",
+    "created": "2021-02-18"
   },
   {
     "company": "Percona",
