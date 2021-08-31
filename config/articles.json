@@ -5,7 +5,17 @@
     "to": ["Kotlin"],
     "category": ["languages"],
     "url": "https://medium.com/brexeng/building-backend-services-with-kotlin-7c8410795e4b",
-    "created": "2021-05-23"
+    "created": "2021-05-23",
+    "slug": "n/a"
+  },
+  {
+    "company": "Coinbase",
+    "from": ["None"],
+    "to": ["React Native"],
+    "category": ["frameworks"],
+    "url": "https://blog.coinbase.com/announcing-coinbases-successful-transition-to-react-native-af4c591df971",
+    "created": "2021-05-14",
+    "slug": "coinbase"
   },
   {
     "company": "Khan Academy",
@@ -13,7 +23,8 @@
     "to": ["Go"],
     "category": ["languages"],
     "url": "https://blog.khanacademy.org/half-a-million-lines-of-go/",
-    "created": "2021-05-13"
+    "created": "2021-05-13",
+    "slug": "khanacademy"
   },
   {
     "company": "Gitpod",
@@ -21,7 +32,8 @@
     "to": ["Svelte", "SvelteKit"],
     "category": ["frameworks"],
     "url": "https://www.gitpod.io/blog/from-gatsby-to-svelte",
-    "created": "2021-05-08"
+    "created": "2021-05-08",
+    "slug": "gitpod"
   },
   {
     "company": "Replit",
@@ -29,7 +41,71 @@
     "to": ["Vite"],
     "category": ["other"],
     "url": "https://blog.replit.com/vite",
-    "created": "2021-04-28"
+    "created": "2021-04-28",
+    "slug": "replit"
+  },
+  {
+    "company": "Mentimeter",
+    "from": ["Javascript", "Flow"],
+    "to": ["Typescript"],
+    "category": ["languages"],
+    "url": "https://www.mentimeter.com/blog/product-and-tech/migrating-a-200000-loc-codebase-to-typescript-in-a-day-and-a-half",
+    "created": "2021-04-19",
+    "slug": "n/a"
+  },
+  {
+    "company": "Sentry",
+    "from": ["Javascript"],
+    "to": ["Typescript"],
+    "category": ["languages"],
+    "url": "https://blog.sentry.io/2021/04/12/slow-and-steady-converting-sentrys-entire-frontend-to-typescript",
+    "created": "2021-04-12",
+    "slug": "sentry"
+  },
+  {
+    "company": "SvelteKit",
+    "from": ["Snowpack"],
+    "to": ["Vite"],
+    "category": ["other"],
+    "url": "https://svelte.dev/blog/sveltekit-beta",
+    "created": "2021-03-23",
+    "slug": "svelte"
+  },
+  {
+    "company": "Kunlun",
+    "from": ["MySQL"],
+    "to": ["TiDB"],
+    "category": ["databases"],
+    "url": "https://pingcap.com/case-studies/empowering-your-gaming-application-with-a-scale-out-newsql-database",
+    "created": "2021-03-11",
+    "slug": "n/a"
+  },
+  {
+    "company": "Nitrokey",
+    "from": ["Ubuntu Core"],
+    "to": ["Debian"],
+    "category": ["other"],
+    "url": "https://www.nitrokey.com/news/2021/nextbox-why-we-decided-and-against-ubuntu-core",
+    "created": "2021-03-10",
+    "slug": "n/a"
+  },
+  {
+    "company": "Aluma",
+    "from": ["C#"],
+    "to": ["Go"],
+    "category": ["languages"],
+    "url": "https://aluma.io/resources/blog/switching-from-c-to-go-for-backend-development",
+    "created": "2021-02-23",
+    "slug": "n/a"
+  },
+  {
+    "company": "Autohome",
+    "from": ["SQL Server"],
+    "to": ["TiDB"],
+    "category": ["databases"],
+    "url": "https://pingcap.com/case-studies/reduce-real-time-query-latency-from-0.5s-to-0.01s-with-scale-out-htap-database",
+    "created": "2021-02-18",
+    "slug": "n/a"
   },
   {
     "company": "Expedia",
@@ -37,15 +113,44 @@
     "to": ["ScyllaDB"],
     "category": ["databases"],
     "url": "https://scylladb.medium.com/expedia-group-our-migration-journey-to-scylla-12cdfa820442",
-    "created": "2021-02-18"
+    "created": "2021-02-18",
+    "slug": "n/a"
+  },
+  {
+    "company": "Azion",
+    "from": ["None"],
+    "to": ["Rust"],
+    "category": ["languages"],
+    "url": "https://www.azion.com/en/blog/why-azion-is-using-the-rust-programming-language/",
+    "created": "2021-02-12",
+    "slug": "n/a"
+  },
+  {
+    "company": "Chehaoduo",
+    "from": ["MySQL"],
+    "to": ["TiDB"],
+    "category": ["databases"],
+    "url": "https://pingcap.com/case-studies/top-car-trading-platform-chooses-scale-out-database-as-mysql-alternative",
+    "created": "2021-01-12",
+    "slug": "n/a"
   },
   {
     "company": "Percona",
     "from": ["Promotheus"],
     "to": ["VictoriaMetricsDB"],
-    "category": ["other"],
+    "category": ["databases"],
     "url": "https://www.percona.com/blog/2020/12/23/observations-on-better-resource-usage-with-percona-monitoring-and-management-v2-12-0/",
-    "created": "2020-12-23"
+    "created": "2020-12-23",
+    "slug": "n/a"
+  },
+  {
+    "company": "Stadia Maps",
+    "from": ["CockroachDB"],
+    "to": ["ScyllaDB"],
+    "category": ["databases"],
+    "url": "https://scylladb.medium.com/stadia-maps-using-scylla-to-serve-maps-in-milliseconds-640c0e4923b",
+    "created": "2020-07-30",
+    "slug": "n/a"
   },
   {
     "company": "Discord",
@@ -53,7 +158,17 @@
     "to": ["ScyllaDB"],
     "category": ["databases"],
     "url": "https://www.scylladb.com/press-release/discord-chooses-scylla-core-storage-layer/",
-    "created": "2020-07-22"
+    "created": "2020-07-22",
+    "slug": "discord"
+  },
+  {
+    "company": "Dropbox",
+    "from": ["CoffeeScript"],
+    "to": ["Typescript"],
+    "category": ["languages"],
+    "url": "https://dropbox.tech/frontend/the-great-coffeescript-to-typescript-migration-of-2017",
+    "created": "2020-05-13",
+    "slug": "dropbox"
   },
   {
     "company": "PayPal",
@@ -61,7 +176,8 @@
     "to": ["Go"],
     "category": ["languages"],
     "url": "https://go.dev/solutions/paypal",
-    "created": "2020-05-01"
+    "created": "2020-05-01",
+    "slug": "paypal"
   },
   {
     "company": "Dropbox",
@@ -69,7 +185,8 @@
     "to": ["Rust"],
     "category": ["languages"],
     "url": "https://dropbox.tech/infrastructure/rewriting-the-heart-of-our-sync-engine",
-    "created": "2020-03-09"
+    "created": "2020-03-09",
+    "slug": "dropbox"
   },
   {
     "company": "Khan Academy",
@@ -77,7 +194,35 @@
     "to": ["Go"],
     "category": ["languages"],
     "url": "https://blog.khanacademy.org/go-services-one-goliath-project/",
-    "created": "2019-12-20"
+    "created": "2019-12-20",
+    "slug": "khanacademy"
+  },
+  {
+    "company": "Sanity",
+    "from": ["Flow"],
+    "to": ["Typescript"],
+    "category": ["languages"],
+    "url": "https://www.sanity.io/blog/from-flow-to-typescript",
+    "created": "2019-07-20",
+    "slug": "n/a"
+  },
+  {
+    "company": "Bitbucket",
+    "from": ["None"],
+    "to": ["Rust"],
+    "category": ["languages"],
+    "url": "https://bitbucket.org/blog/why-rust",
+    "created": "2019-06-19",
+    "slug": "bitbucket"
+  },
+  {
+    "company": "Sentry",
+    "from": ["PostgreSQL", "Redis"],
+    "to": ["Clickhouse"],
+    "category": ["databases"],
+    "url": "https://blog.sentry.io/2019/05/16/introducing-snuba-sentrys-new-search-infrastructure",
+    "created": "2019-05-16",
+    "slug": "sentry"
   },
   {
     "company": "Deliveroo",
@@ -85,7 +230,8 @@
     "to": ["Rust"],
     "category": ["languages"],
     "url": "https://deliveroo.engineering/2019/02/14/moving-from-ruby-to-rust.html",
-    "created": "2019-02-14"
+    "created": "2019-02-14",
+    "slug": "deliveroo"
   },
   {
     "company": "The Guardian",
@@ -93,7 +239,8 @@
     "to": ["PostgreSQL"],
     "category": ["databases"],
     "url": "https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres",
-    "created": "2018-11-30"
+    "created": "2018-11-30",
+    "slug": "n/a"
   },
   {
     "company": "Cloudflare",
@@ -101,7 +248,8 @@
     "to": ["ClickHouse"],
     "category": ["databases"],
     "url": "https://blog.cloudflare.com/http-analytics-for-6m-requests-per-second-using-clickhouse/",
-    "created": "2018-03-07"
+    "created": "2018-03-07",
+    "slug": "cloudflare"
   },
   {
     "company": "Uber",
@@ -109,7 +257,44 @@
     "to": ["Go"],
     "category": ["languages"],
     "url": "https://eng.uber.com/schemaless-rewrite/",
-    "created": "2018-02-22"
+    "created": "2018-02-22",
+    "slug": "uber"
+  },
+  {
+    "company": "Stream",
+    "from": ["Python"],
+    "to": ["Go"],
+    "category": ["languages"],
+    "url": "https://getstream.io/blog/switched-python-go/",
+    "created": "2017-10-25",
+    "slug": "n/a"
+  },
+  {
+    "company": "Holistics",
+    "from": ["Angular"],
+    "to": ["Vue"],
+    "category": ["frameworks"],
+    "url": "https://www.holistics.io/blog/why-and-how-we-migrated-from-angularjs-to-vuejs/",
+    "created": "2017-10-10",
+    "slug": "n/a"
+  },
+  {
+    "company": "Snipcart",
+    "from": ["Backbone"],
+    "to": ["Vue"],
+    "category": ["frameworks"],
+    "url": "https://snipcart.com/blog/progressive-migration-backbone-vuejs-refactoring",
+    "created": "2017-07-20",
+    "slug": "n/a"
+  },
+  {
+    "company": "Movio",
+    "from": ["Scala"],
+    "to": ["Go"],
+    "category": ["languages"],
+    "url": "https://movio.co/blog/migrate-Scala-to-Go/",
+    "created": "2017-01-24",
+    "slug": "n/a"
   },
   {
     "company": "Discord",
@@ -117,7 +302,8 @@
     "to": ["Cassandra"],
     "category": ["databases"],
     "url": "https://blog.discord.com/how-discord-stores-billions-of-messages-7fa6ec7ee4c7#.bv31n293t",
-    "created": "2017-01-14"
+    "created": "2017-01-14",
+    "slug": "discord"
   },
   {
     "company": "Uber",
@@ -125,7 +311,8 @@
     "to": ["MySQL"],
     "category": ["databases"],
     "url": "https://eng.uber.com/postgres-to-mysql-migration/",
-    "created": "2016-07-26"
+    "created": "2016-07-26",
+    "slug": "uber"
   },
   {
     "company": "Pinterest",
@@ -133,7 +320,8 @@
     "to": ["Elixir"],
     "category": ["languages"],
     "url": "https://venturebeat.com/2015/12/18/pinterest-elixir/",
-    "created": "2015-12-18"
+    "created": "2015-12-18",
+    "slug": "pinterest"
   },
   {
     "company": "Dockyard",
@@ -141,7 +329,8 @@
     "to": ["Elixir"],
     "category": ["languages"],
     "url": "https://dockyard.com/blog/2015/11/18/phoenix-is-not-rails",
-    "created": "2015-11-18"
+    "created": "2015-11-18",
+    "slug": "n/a"
   },
   {
     "company": "Cloudflare",
@@ -149,7 +338,17 @@
     "to": ["CitusDB"],
     "category": ["databases"],
     "url": "https://blog.cloudflare.com/scaling-out-postgresql-for-cloudflare-analytics-using-citusdb/",
-    "created": "2015-04-09"
+    "created": "2015-04-09",
+    "slug": "cloudflare"
+  },
+  {
+    "company": "Sendgrid",
+    "from": ["Python"],
+    "to": ["Go"],
+    "category": ["languages"],
+    "url": "https://sendgrid.com/blog/convince-company-go-golang/",
+    "created": "2014-03-06",
+    "slug": "n/a"
   },
   {
     "company": "Repustate",
@@ -157,7 +356,26 @@
     "to": ["Go"],
     "category": ["languages"],
     "url": "https://www.repustate.com/blog/from-python-to-go-migrating-our-entire-api/",
-    "created": "2013-02-09"
+    "created": "2013-02-09",
+    "slug": "n/a"
+  },
+  {
+    "company": "Bitly",
+    "from": ["C", "Python"],
+    "to": ["Go"],
+    "category": ["languages"],
+    "url": "https://word.bitly.com/post/29550171827/go-go-gadget",
+    "created": "2012-08-16",
+    "slug": "bitly"
+  },
+  {
+    "company": "Soundcloud",
+    "from": ["Ruby"],
+    "to": ["Go"],
+    "category": ["languages"],
+    "url": "https://developers.soundcloud.com/blog/go-at-soundcloud",
+    "created": "2012-07-24",
+    "slug": "soundcloud"
   },
   {
     "company": "Reddit",
@@ -165,6 +383,7 @@
     "to": ["Python"],
     "category": ["languages"],
     "url": "https://redditblog.com/2005/12/05/on-lisp/",
-    "created": "2005-12-05"
+    "created": "2005-12-05",
+    "slug": "reddit"
   }
 ]
