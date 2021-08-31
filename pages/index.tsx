@@ -1,54 +1,53 @@
-import { Code, Link, List, Text } from "@chakra-ui/react";
+import { Heading } from "@chakra-ui/react";
 import Head from "next/head";
 
-import { Hero } from "../components/Hero";
-import { CTA } from "../components/Index/CTA";
-import { ListItemCustom } from "../components/Index/ListItemCustom";
 import { Main } from "../components/Main";
 import { PageContainer } from "../components/PageContainer";
+import { AlgoliaBlock } from "../components/Search/InstantSearch";
+import articlesData from "../config/articles.json";
+import type { FilterProps } from "../lib/interfaces/filterProps.interface";
 
-const Index = () => (
-  <PageContainer>
-    <Head>
-      <title>next-lotus-starter | Home</title>
-    </Head>
+export default function Index(props: FilterProps) {
+  return (
+    <PageContainer>
+      <Head>
+        <title>Tech Migrations Directory</title>
+      </Head>
+      <Main>
+        <Heading>Articles</Heading>
+        <AlgoliaBlock {...props} />
+      </Main>
+    </PageContainer>
+  );
+}
 
-    <Main>
-      <Hero />
-      <Text>
-        Personal starter repository built using <Code>Next.js</Code> +{" "}
-        <Code>Chakra UI</Code> + <Code>TypeScript</Code>. Based off
-        Vercel&apos;s{" "}
-        <Link
-          isExternal
-          to="https://github.com/vercel/next.js/tree/canary/examples/with-chakra-ui-typescript"
-        >
-          with-chakra-ui-typescript
-        </Link>{" "}
-        template.
-      </Text>
+type ObjectKeys = "from" | "to" | "category";
 
-      <List spacing={3} py={10} mt={0}>
-        <ListItemCustom href="https://nextjs.org" title="Next.js" />
-        <ListItemCustom href="https://chakra-ui.com/" title="Chakra UI" />
-        <ListItemCustom
-          href="https://www.typescriptlang.org/"
-          title="TypeScript"
-        />
-        <ListItemCustom
-          href="https://github.com/fontsource/fontsource"
-          title="Fontsource"
-        />
-        <ListItemCustom
-          href="https://react-icons.github.io/react-icons"
-          title="React Icons"
-        />
-        <ListItemCustom href="https://prettier.io/" title="Prettier" />
-        <ListItemCustom href="https://eslint.org/" title="ESLint" />
-      </List>
-      <CTA />
-    </Main>
-  </PageContainer>
-);
+export async function getStaticProps() {
+  const sortAlphabetically = (objectKey: ObjectKeys): string[] => {
+    const keyArr: string[] = [];
+    for (const article of articlesData) {
+      keyArr.push(...article[objectKey]);
+    }
 
-export default Index;
+    // Remove duplicates
+    const uniqKeyArr = [...new Set(keyArr)];
+
+    // Sort alphabetically
+    return uniqKeyArr.sort((a, b) => a.localeCompare(b));
+  };
+  // Orders all available in alphabetical order
+  const fromFilterOrder = await sortAlphabetically("from");
+  const toFilterOrder = await sortAlphabetically("to");
+  const categoryFilterOrder = await sortAlphabetically("category");
+  const articleCount = articlesData.length;
+
+  return {
+    props: {
+      fromFilterOrder,
+      toFilterOrder,
+      categoryFilterOrder,
+      articleCount,
+    },
+  };
+}
