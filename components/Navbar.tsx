@@ -3,15 +3,15 @@ import {
   ButtonProps,
   Flex,
   FlexProps,
-  Stack,
   IconButton,
+  Stack,
   useColorMode,
   useColorModeValue,
 } from "@chakra-ui/react";
+import { PropsWithChildren } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { CgDarkMode } from "react-icons/cg";
 
-import { PropsWithChildren } from "react";
 import { NextChakraLink } from "./NextChakraLink";
 
 export const Logo = (props: ButtonProps) => {
