@@ -1,5 +1,14 @@
 [
   {
+    "company": "mParticle",
+    "from": ["React"],
+    "to": ["React", "Gatsby"],
+    "category": ["frameworks"],
+    "url": "https://www.mparticle.com/blog/gatsby-migration-case-study",
+    "created": "2021-06-18",
+    "slug": "n/a"
+  },
+  {
     "company": "Brex",
     "from": ["Elixir"],
     "to": ["Kotlin"],
@@ -180,6 +189,24 @@
     "slug": "paypal"
   },
   {
+    "company": "Singlewire",
+    "from": ["AngularJS"],
+    "to": ["React"],
+    "category": ["frameworks"],
+    "url": "https://www.singlewire.com/blog/development/react-migration",
+    "created": "2020-04-06",
+    "slug": "n/a"
+  },
+  {
+    "company": "Cloudflare",
+    "from": ["Hugo"],
+    "to": ["React", "Gatsby"],
+    "category": ["frameworks"],
+    "url": "https://blog.cloudflare.com/migrating-to-react-land-gatsby/",
+    "created": "2020-03-26",
+    "slug": "cloudflare"
+  },
+  {
     "company": "Dropbox",
     "from": ["Python"],
     "to": ["Rust"],
@@ -271,7 +298,7 @@
   },
   {
     "company": "Holistics",
-    "from": ["Angular"],
+    "from": ["AngularJS"],
     "to": ["Vue"],
     "category": ["frameworks"],
     "url": "https://www.holistics.io/blog/why-and-how-we-migrated-from-angularjs-to-vuejs/",
