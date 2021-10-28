@@ -37,9 +37,9 @@ export async function getStaticProps() {
     return uniqKeyArr.sort((a, b) => a.localeCompare(b));
   };
   // Orders all available in alphabetical order
-  const fromFilterOrder = await sortAlphabetically("from");
-  const toFilterOrder = await sortAlphabetically("to");
-  const categoryFilterOrder = await sortAlphabetically("category");
+  const fromFilterOrder = sortAlphabetically("from");
+  const toFilterOrder = sortAlphabetically("to");
+  const categoryFilterOrder = sortAlphabetically("category");
   const articleCount = articlesData.length;
 
   return {
